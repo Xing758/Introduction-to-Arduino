@@ -18,6 +18,7 @@ for (int x=100;x<=1000;x=x+1000);
   {
    digitalWrite(led,HIGH);
    delay(x);
+   Serial.println(x);
    digitalWrite(led,LOW);
    delay(x);
   }
